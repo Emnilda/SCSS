@@ -1,0 +1,9 @@
+@mixin display ($a,$b,$c,$d) {
+    padding: $a $b $c $d;
+    display: $display-header;
+}
+
+@mixin fonts ($a,$b) {
+    font-size: $a;
+    line-height: $b; 
+}

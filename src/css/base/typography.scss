@@ -1,0 +1,45 @@
+body {
+    font-family: $font-name;
+    color: $color-body;
+}
+
+nav {
+    text-align: center;
+}
+
+
+.main-nav li {
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
+a {
+    color: #472063;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.landing-copy p {
+    @include fonts (1.3em, 1.4em);
+
+    & h1 {
+        @include fonts (3em, 1.2em);
+    }
+}
+
+
+.cta-button {
+    color: $color-body;
+    font-weight: 700;
+
+}
+
+a.cta-button:hover {
+
+    text-decoration: none;
+}
